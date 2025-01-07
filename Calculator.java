@@ -6,6 +6,7 @@ public static void main(String[] args)
      add(123, 45);
      subtract(15, 5);
      multiply(11, 33);
+     divide(33, 11);
 }
 public static void add(int a, int b) {
      System.out.println(a+b);
@@ -15,5 +16,8 @@ public static void subtract(int a, int b) {
 }
 public static void multiply(int a, int b) {
           System.out.println(a*b);
+}
+public static void divide(int a, int b) {
+        System.out.println(a/b);
 }
 }
